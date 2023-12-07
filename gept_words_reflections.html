@@ -1,143 +1,158 @@
 <h1>GEPT Words 單字測驗 ASP.NET 程式開發心得</h1>
-作者：CBF110047 陳儀妮
+    作者：CBF110047 陳儀妮
 
-<h2>開發思路與解決方案</h2>
-在這裡，你可以描述你在開發過程中的思考過程，以及你如何解決問題的。
-<h3>開發過程</h3>
-在查詢單字的過程中，採用了上星期的程式再做了一點修正，例如老師提示我們用session這個方法去儲存我們要的資料，也參考了老師之前在課堂影片中有關session的教學，
-在單字查詢的過程中，我採用了上星期的程式作為基礎，並進行了一些修正。老師的建議讓我們使用 Session 來儲存必要的資料，我在程式中也運用了這個方法。同時，我參考了老師在課堂影片中有關 Session 的教學，加深了對這個寫法的理解。
+    <h2>開發思路與解決方案</h2>
+    在這裡，你可以描述你在開發過程中的思考過程，以及你如何解決問題的。
+    <h3>開發過程</h3>
+    在查詢單字的過程中，採用了上星期的程式再做了一點修正，例如老師提示我們用session這個方法去儲存我們要的資料，也參考了老師之前在課堂影片中有關session的教學，
+    在單字查詢的過程中，我採用了上星期的程式作為基礎，並進行了一些修正。老師的建議讓我們使用 Session 來儲存必要的資料，我在程式中也運用了這個方法。同時，我參考了老師在課堂影片中有關 Session 的教學，加深了對這個寫法的理解。
 
-而測驗去的程式碼則是利用上上禮拜的程式做了一個大改動，這邊參考了老師在上一堂的線上課中示範的教學讓自己的思路更清晰，並且在測驗功能上進行了一些重要的調整。這次的改動讓系統的功能更加完善，洗牌演算法和成績計算也得到了有效運用。
-在開發過程中，我經常到課堂網站尋找已經完成的程式碼，以便進行修改。這樣做的好處在於確保我所使用的程式碼是正確的，並且能夠節省開發時間。還有我也認知到需要在程式碼中加入註解，以便快速理解每個方法的功能，避免重複搜尋浪費自己的時間。
-<h3>解決策略</h3>
-我在撰寫程式碼一段時間後，習慣使用 ChatGPT 進行偵錯。它不僅提供了一些建議，還引導我朝著更好的開發方向前進。這節省了我一些時間，同時讓我更有信心解決問題。
-當遇到問題時，我會查詢 ChatGPT 或者到老師的網頁上尋找參考的程式碼。
-然而通常我們去問ChatGPT十，它容易將一段程式碼都打出來，但我較少直接將 ChatGPT 生成的程式碼直接套用，因為它有高機率出現錯誤。我更傾向於將 ChatGPT 提供的解決思路作為參考，自行修改以符合實際需求。
-通常遇到一些在程式執行前遇到的錯誤時，我會利用google去尋找可能大家也遇到的問題，並且搜尋大家怎麼改進，然後把它改成對的。
-同時，我會回憶老師在課堂中的教學，尤其是在遇到困難時，如果之前有類似的教學內容，我會重新觀看課程影片，將課堂上學到的知識與當前的程式碼進行聯繫。
-這樣的思考方式通常能提供一些實際的解決方案，例如在洗牌演算法和資料連結等方面的應用，進一步加強我對本次程式的理解。
-<h2>使用的技術與引用來源</h2>
-在這裡，你可以列出你在開發過程中使用到的技術，以及你參考的資料來源。
-<h3>使用的技術</h3>
-資料繫節，SQL語法，單字網路查詢，洗牌演算法，Session使用方法，隨機洗牌法
-<h3>引用的資源</h3>
-大多數參考課堂中的影片進行修改，以及老師網站上有許多程式可以做參考以及複製之後在做一些更改就可以了，
-網路上的資源有包括chatgpt以及microsoft learn上面的語法(這個超好用，如果有不懂的地方可以直接在上面看語法定義，還會有示範)
+    而測驗去的程式碼則是利用上上禮拜的程式做了一個大改動，這邊參考了老師在上一堂的線上課中示範的教學讓自己的思路更清晰，並且在測驗功能上進行了一些重要的調整。這次的改動讓系統的功能更加完善，洗牌演算法和成績計算也得到了有效運用。
+    在開發過程中，我經常到課堂網站尋找已經完成的程式碼，以便進行修改。這樣做的好處在於確保我所使用的程式碼是正確的，並且能夠節省開發時間。還有我也認知到需要在程式碼中加入註解，以便快速理解每個方法的功能，避免重複搜尋浪費自己的時間。
+    <h3>解決策略</h3>
+    我在撰寫程式碼一段時間後，習慣使用 ChatGPT 進行偵錯。它不僅提供了一些建議，還引導我朝著更好的開發方向前進。這節省了我一些時間，同時讓我更有信心解決問題。
+    當遇到問題時，我會查詢 ChatGPT 或者到老師的網頁上尋找參考的程式碼。
+    然而通常我們去問ChatGPT十，它容易將一段程式碼都打出來，但我較少直接將 ChatGPT 生成的程式碼直接套用，因為它有高機率出現錯誤。我更傾向於將 ChatGPT 提供的解決思路作為參考，自行修改以符合實際需求。
+    通常遇到一些在程式執行前遇到的錯誤時，我會利用google去尋找可能大家也遇到的問題，並且搜尋大家怎麼改進，然後把它改成對的。
+    同時，我會回憶老師在課堂中的教學，尤其是在遇到困難時，如果之前有類似的教學內容，我會重新觀看課程影片，將課堂上學到的知識與當前的程式碼進行聯繫。
+    這樣的思考方式通常能提供一些實際的解決方案，例如在洗牌演算法和資料連結等方面的應用，進一步加強我對本次程式的理解。
+    <h2>使用的技術與引用來源</h2>
+    在這裡，你可以列出你在開發過程中使用到的技術，以及你參考的資料來源。
+    <h3>使用的技術</h3>
+    資料繫節，SQL語法，單字網路查詢，洗牌演算法，Session使用方法，隨機洗牌法
+    <h3>引用的資源</h3>
+    大多數參考課堂中的影片進行修改，以及老師網站上有許多程式可以做參考以及複製之後在做一些更改就可以了，
+    網路上的資源有包括chatgpt以及microsoft learn上面的語法(這個超好用，如果有不懂的地方可以直接在上面看語法定義，還會有示範)
 
-<h2>遇到的問題與解決方法</h2>
-在這裡，你可以分享你在開發過程中遇到的問題，以及你是如何解決這些問題的。
-<h3>遇到的問題</h3>
-提到資料繫節的部分無法更新、洗牌
-<h3>解決的方法</h3>
-原先以為在aspx檔有連接的資料庫後就不需要去做修正，但後來發現好像在資料更動的時候也需要做databind讓他重新連結資料庫，所以在CBF110047_GV1_RowDeleted中新增了DataBind()以及selectedcommand去做資料庫的更新。
-洗牌演算法:本來是參考老師上修改同學程式碼的檔案，結果發現太過於冗長而且難以觀看，而且題目無法跑10題就停止，所以參考chatgpt做出來的程式碼在做一些修正就有成功跑出題目了。
-<h2>修改後的程式內容</h2>
-在這裡，你可以分享你修改後的程式碼，並解釋你做了哪些改變。
-<h3>修改的部分</h3>
- void test()
+    <h2>遇到的問題與解決方法</h2>
+    在這裡，你可以分享你在開發過程中遇到的問題，以及你是如何解決這些問題的。
+    <h3>遇到的問題</h3>
+    提到資料繫節的部分無法更新、洗牌
+    <h3>解決的方法</h3>
+    原先以為在aspx檔有連接的資料庫後就不需要去做修正，但後來發現好像在資料更動的時候也需要做databind讓他重新連結資料庫，所以在CBF110047_GV1_RowDeleted中新增了DataBind()以及selectedcommand去做資料庫的更新。
+    洗牌演算法:本來是參考老師上修改同學程式碼的檔案，結果發現太過於冗長而且難以觀看，而且題目無法跑10題就停止，所以參考chatgpt做出來的程式碼在做一些修正就有成功跑出題目了。
+    <h2>修改後的程式內容</h2>
+    在這裡，你可以分享你修改後的程式碼，並解釋你做了哪些改變。
+    <h3>修改的部分</h3>
+    <pre>
+    void test()
     {
-        List<ListItem> shuffledItems = CBF110047_DDL1.Items.Cast<ListItem>().OrderBy(i => Guid.NewGuid()).ToList();
-        Session["ShuffledItems"] = shuffledItems;
+    List<ListItem>
+        shuffledItems = CBF110047_DDL1.Items.Cast<ListItem>
+            ().OrderBy(i => Guid.NewGuid()).ToList();
+            Session["ShuffledItems"] = shuffledItems;
 
-        count = Session["count"] != null ? (int)Session["count"] : 0;
+            count = Session["count"] != null ? (int)Session["count"] : 0;
 
-        List<ListItem> shuffledQuestions = (List<ListItem>)Session["ShuffledItems"];
+            List<ListItem>
+                shuffledQuestions = (List<ListItem>
+                    )Session["ShuffledItems"];
 
-        if (count < shuffledQuestions.Count)
-        {
-            ListItem currentQuestion = shuffledQuestions[count];
+                    if (count < shuffledQuestions.Count)
+                    {
+                    ListItem currentQuestion = shuffledQuestions[count];
 
-            CBF110047_input.Text = "";
-            CBF110047_ch_hint.Text += currentQuestion.Value; 
+                    CBF110047_input.Text = "";
+                    CBF110047_ch_hint.Text += currentQuestion.Value;
 
-            for (int i = 0; i < currentQuestion.Text.Length; i++)
-            {
-                if (i == 0)
-                {
+                    for (int i = 0; i < currentQuestion.Text.Length; i++)
+                    {
+                    if (i == 0)
+                    {
                     CBF110047_input.Text += currentQuestion.Text[0];
-                }
-                else
-                {
+                    }
+                    else
+                    {
                     CBF110047_input.Text += " _";
-                }
-            }
-        }
-    }
+                    }
+                    }
+                    }
+                    }
 
-    void check()
-    {
-        List<ListItem> shuffledQuestions = (List<ListItem>)Session["ShuffledItems"];
+                    void check()
+                    {
+                    List<ListItem>
+                        shuffledQuestions = (List<ListItem>
+                            )Session["ShuffledItems"];
 
-        count = Session["count"] != null ? (int)Session["count"] : 0;
+                            count = Session["count"] != null ? (int)Session["count"] : 0;
 
-        if (count < shuffledQuestions.Count)
-        {
-            if (CBF110047_input.Text == shuffledQuestions[count].Value) 
-            {
-                correct = (int)Session["correct"];
-                correct++;
-                Session["correct"] = correct;
-                CBF110047_ch_hint.Text = "答對了<br/>";
-            }
-            else
-            {
-                CBF110047_ch_hint.Text = $"答錯了!答案是{shuffledQuestions[count].Text}<br/>";
-            }
-        }
-    }
-    protected void CBF110047_nextQBtn_Click(object sender, EventArgs e)
-    {
-        CBF110047_input.Focus();
-        check();
+                            if (count < shuffledQuestions.Count)
+                            {
+                            if (CBF110047_input.Text == shuffledQuestions[count].Value)
+                            {
+                            correct = (int)Session["correct"];
+                            correct++;
+                            Session["correct"] = correct;
+                            CBF110047_ch_hint.Text = "答對了<br />";
+                            }
+                            else
+                            {
+                            CBF110047_ch_hint.Text = $"答錯了!答案是{shuffledQuestions[count].Text}<br />";
+                            }
+                            }
+                            }
+                            protected void CBF110047_nextQBtn_Click(object sender, EventArgs e)
+                            {
+                            CBF110047_input.Focus();
+                            check();
 
-        // Increment the count in the session
-        count = Session["count"] != null ? (int)Session["count"] : 0;
-        count += 1;
-        Session["count"] = count;
+                            // Increment the count in the session
+                            count = Session["count"] != null ? (int)Session["count"] : 0;
+                            count += 1;
+                            Session["count"] = count;
 
-        if (count < 10)
-        {
-            test();
-        }
-        else
-        {
-            CBF110047_ch_hint.Text += $"總得分:{(int)Session["correct"] * 10:F2}";
-            CBF110047_input.Visible = false;
-            CBF110047_nextQBtn.Visible = false;
-            CBF110047_Endbutton.Visible = true;
-            CBF110047_retried.Visible = true;
-        };
-        }
-<h3>程式碼說明</h3>
-test()這一段是把ddl的單字抽取出來做洗牌測驗，/if (count < shuffledQuestions.Count){...}/這邊可以讓單字出現提示字元，
-check()這段是判斷我今天輸入的答案對不對， CBF110047_nextQBtn_Click這邊可以利用呼叫把test()、check()執行然後跑10題就結束，跑出得分，結束跟重玩的按鈕。
-<h2>程式執行畫面</h2>
-在這裡，你可以分享你的程式執行畫面，並解釋每個畫面的功能。
-<h3>功能介紹</h3>
-  以gridview分頁顯示資料表內容(請不要顯示 id欄位), 並允許編輯與刪除資料。請將 GridView 的名稱設定為 "學號_GV1"，並將 "學號" 部分替換為您的學號。例如你的學號是CBF112001則GridView的id請設成"CBF112001_GV1".
-  刪除資料前會先跟使用者做確認. 確認訊息為"你確定要刪除嗎?"
-  顯示時編輯刪除按鈕不要換行 (設定ItemStyle的Wrap=False)，當按下編輯按鈕時, sentence欄位會充滿整個儲存格(width='98%', 多行)
-  使用DropDownList 顯示10個單字，按下按鈕可以顯示後10個單字，或前10個單字.
-(DropDownList名稱"學號_DDL1", 按鈕"學號_PreviousButton"及"學號_NextButton"請記得更改學號部份.)
-   點選DropDownList中的項目會顯示對應的中文解釋，依次記錄在下方。換頁(按下前10個單字或後10個單字按鈕)後則清空，並呈現第一筆單字的英文中文對應及超連結。超連結只有在英文部份出現，會連至cambridge字典，方便使用者查詢該單字。
- GridView刪除資料時會反應至DropDownList. 按鈕會依目前是最後一頁或第一頁來呈現可按或不可按狀態。
- 按下"測驗去"按鈕後會進入測驗。測驗題目為最近在DropDownList中呈現的單字。題目會呈現中文解釋及英文首字元及底線提示有幾個字元。
- 會正確判斷答對或答錯，答錯時並提供正確答案。
- 出題次序是隨機且不重複(洗牌演算法)。
- 測驗時可以完全使用鍵盤(不使用滑鼠)連續輸入。
- 答完題後會計算得分。
- 能顯示"結束"按鈕，點入後可正確結束程式。
- 能顯示"重玩"連結，點入後可正確重新執行。
+                            if (count < 10)
+                            {
+                            test();
+                            }
+                            else
+                            {
+                            CBF110047_ch_hint.Text += $"總得分:{(int)Session["correct"] * 10:F2}";
+                            CBF110047_input.Visible = false;
+                            CBF110047_nextQBtn.Visible = false;
+                            CBF110047_Endbutton.Visible = true;
+                            CBF110047_retried.Visible = true;
+                            };
+                            }
+        </pre>
+    <h3>程式碼說明</h3>
+    test()這一段是把ddl的單字抽取出來做洗牌測驗，/if (count < shuffledQuestions.Count){...}/這邊可以讓單字出現提示字元，
+    check()這段是判斷我今天輸入的答案對不對， CBF110047_nextQBtn_Click這邊可以利用呼叫把test()、check()執行然後跑10題就結束，跑出得分，結束跟重玩的按鈕。
+    <h2>程式執行畫面</h2>
+    在這裡，你可以分享你的程式執行畫面，並解釋每個畫面的功能。
+    <h3>功能介紹</h3>
+    以gridview分頁顯示資料表內容(請不要顯示 id欄位), 並允許編輯與刪除資料。請將 GridView 的名稱設定為 "學號_GV1"，並將 "學號" 部分替換為您的學號。例如你的學號是CBF112001則GridView的id請設成"CBF112001_GV1".<br />
+    刪除資料前會先跟使用者做確認. 確認訊息為"你確定要刪除嗎?"<br />
+    顯示時編輯刪除按鈕不要換行 (設定ItemStyle的Wrap=False)，當按下編輯按鈕時, sentence欄位會充滿整個儲存格(width='98%', 多行)<br />
+    使用DropDownList 顯示10個單字，按下按鈕可以顯示後10個單字，或前10個單字.<br />
+    (DropDownList名稱"學號_DDL1", 按鈕"學號_PreviousButton"及"學號_NextButton"請記得更改學號部份.)<br />
+    點選DropDownList中的項目會顯示對應的中文解釋，依次記錄在下方。換頁(按下前10個單字或後10個單字按鈕)後則清空，並呈現第一筆單字的英文中文對應及超連結。超連結只有在英文部份出現，會連至cambridge字典，方便使用者查詢該單字。<br />
+    GridView刪除資料時會反應至DropDownList. 按鈕會依目前是最後一頁或第一頁來呈現可按或不可按狀態。<br />
+    按下"測驗去"按鈕後會進入測驗。測驗題目為最近在DropDownList中呈現的單字。題目會呈現中文解釋及英文首字元及底線提示有幾個字元。<br />
+    會正確判斷答對或答錯，答錯時並提供正確答案。<br />
+    出題次序是隨機且不重複(洗牌演算法)。<br />
+    測驗時可以完全使用鍵盤(不使用滑鼠)連續輸入。<br />
+    答完題後會計算得分。<br />
+    能顯示"結束"按鈕，點入後可正確結束程式。<br />
+    能顯示"重玩"連結，點入後可正確重新執行。<br />
 
-起始程式碼如附件。
-<h3>畫面展示</h3>
 
-<h2>個人心得與反思</h2>
-在這裡，你可以分享你對於這次開發經驗的感想，以及你從中學到了什麼。
-<h3>學習心得</h3>
-這次的程式開發挑戰讓我深刻體會到自己在程式領域的不足之處。在遇到問題時，感謝網路上豐富的資源，讓我得以查閱解決方案，否則可能會花費更多時間在資料搜尋上，且成功的機會也會減少。
-儘管遭遇了一些困難，透過將課堂上所學應用於實際項目中，我感受到自己的進步。實踐是學習最有效的方式，雖然製作過程中花費了相當長的時間，但這段時間也是充實而有成就感的。
-重點是，這次經歷讓我深刻體會到程式功力的重要性，若能更進一步精進技能，相信未來將能夠創造更優秀且高效的程式，同時更有效地管理時間。偵錯過程雖然考驗耐心和觀察力，但也是提升自己的寶貴機會。
-總體而言，成功完成這個程式碼是一個不錯的開始，期待未來在程式開發的旅程中不斷挑戰自己，迎接更多學習與成長的機會。
-<h3>未來展望</h3>
-  努力精進自己的程式功力，結合上學期學的html前端，變成厲害的全端工程師。
+    <h3>畫面展示</h3>
+    <img src="photo\01.png">
+    <img src="photo\02.png">
+    <img src="photo\03.png">
+    <img src="photo\04.png">
+    <img src="photo\05.png">
+    <img src="photo\06.png">
+    <img src="photo\07.png">
+
+    <h2>個人心得與反思</h2>
+    在這裡，你可以分享你對於這次開發經驗的感想，以及你從中學到了什麼。
+    <h3>學習心得</h3>
+    這次的程式開發挑戰讓我深刻體會到自己在程式領域的不足之處。在遇到問題時，感謝網路上豐富的資源，讓我得以查閱解決方案，否則可能會花費更多時間在資料搜尋上，且成功的機會也會減少。
+    儘管遭遇了一些困難，透過將課堂上所學應用於實際項目中，我感受到自己的進步。實踐是學習最有效的方式，雖然製作過程中花費了相當長的時間，但這段時間也是充實而有成就感的。
+    重點是，這次經歷讓我深刻體會到程式功力的重要性，若能更進一步精進技能，相信未來將能夠創造更優秀且高效的程式，同時更有效地管理時間。偵錯過程雖然考驗耐心和觀察力，但也是提升自己的寶貴機會。
+    總體而言，成功完成這個程式碼是一個不錯的開始，期待未來在程式開發的旅程中不斷挑戰自己，迎接更多學習與成長的機會。
+    <h3>未來展望</h3>
+    努力精進自己的程式功力，結合上學期學的html前端，變成厲害的全端工程師。
