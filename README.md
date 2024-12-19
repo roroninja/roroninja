@@ -1,7 +1,7 @@
 
-- Hi, I’m Chen, Welcome to my space.👋
+- Hi, I’m roroninja, Welcome to my space.👋
 - You are very welcomed to communicate with me!
-- 嗨 這裡是陳，歡迎來到我的空間✨
+- 嗨 這裡是還在修行的忍者，歡迎來到我的空間✨
 
 <!---
 roroninja/roroninja is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
